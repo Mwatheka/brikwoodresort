@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Brickwood Apartments are self catering apartments to let and fully furnished apartments for rental located in Lantana Road, Westlands, Nairobi, Kenya, 15 kms from Nairobi International Airport via Nairobi Expressway, 5 kms from Nairobi City Center and 2.3 km from Nairobi Museum. Brickwood Apartments is situated 2 Minutes’ walk to Westlands – the Business Hub of Nairobi, Brickwood Apartments offers a choice of One-bedroom apartments and Two-bedroom apartments, at Brickwood Apartments we just want you to feel at ease as you transit your life slowly from where you were to where you are">
+  <meta name="keywords" content="Brickwood Apartments, Brickwood Apartments in Westlands, Brickwood Apartments in Nairobi,  Brickwood, Apartments, Apartments to let, Apartments for sale, Apartments for rental, self catering Apartments, fully furnished Apartments, Nairobi Apartments, Nairobi Apartment, apartments in Westlands, furnished apartments in Westlands, self catering apartments in Westlands, rental apartments in Nairobi, Westlands Apartments, self catering apartments in Westlands, Furnished Apartments in Westlands,  Apartments in Nairobi, One Bedroom Apartments, Two Bedroom Apartments, Three Bedroom Apartments, Apartments for sale in Westlands, Apartment in Westlands, Apartments in Parklands, Cheap Apartments,, Affordable Apartments, luxury Apartments, Westlands, Westlands Nairobi, Westlands Nightlife, Westlands Restaurants">
+
+  <title> Brickwood Apartments, Westlands, Nairobi – Westlands Furnished & Self-catering Apartments for rental & sale, Nairobi, Kenya  </title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-4lCUNt1+5cDZgeZA5XhFvGBkJktUUDse27oTjbcKePA7hTP1DJK5pj5BA5chLZZ8RW2dhdBoYy9vA3oUyMjG4g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+  <!-- Custom CSS -->
+  <style>
+    hr {
+      color: black; /* color of the line */
+      background-color:black; /* background color of the line */
+      border: 1px solid black;
+      
+  }
+  .h2, h2, h3 {
+    text-align: center;
+  }
+    .gallery-item img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+  }
+  
+  .carousel-item img {
+      width: 230px;
+      height: 300px;
+      object-fit: cover;
+  }
+  
+  .carousel-item {
+      display: none;
+  }
+  
+  .carousel-item.active {
+      display: block;
+  }
+  
+  .icons-container {
+      background-image: url('image 2.jpg');
+      background-size: cover;
+      background-position: center;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* Center vertically */
+      align-items: center; /* Center horizontally */
+  }
+  
+  .icons-container a.btn {
+      padding: 20px 40px; /* Adjust padding to increase button size */
+      margin-bottom: 20px; /* Add margin between buttons */
+  }
+  
+  .navbar.nav-bg {
+      background-color: transparent; /* Updated background color to transparent */
+      color: white; /* Updated text color to white */
+  }
+  
+  .nav-links {
+      display: flex; /* Use flexbox */
+      justify-content: center; /* Center the list items horizontally */
+      padding-left: 0; /* Remove default padding */
+  }
+  
+  .navbar.nav-bg .nav-link {
+      color: white; /* Set text color to white */
+  }
+  
+  .navbar.nav-bg .navbar-toggler-icon {
+      background-color: white; /* Set icon color to white */
+  }
+  
+  .navbar.nav-bg .navbar-toggler {
+      border-color: white; /* Set border color to white */
+      color: white; /* Set text color to white */
+  }
+  
+  .navbar.nav-bg .navbar-toggler:focus,
+  .navbar.nav-bg .navbar-toggler:active {
+      outline: none; /* Remove outline on focus or active state */
+  }
+  
+  .nav-item {
+      margin-right: 10px; /* Add space between list items */
+  }
+  
+  .nav-item:last-child {
+      margin-right: 0; /* Remove margin from the last list item */
+  }
+  
+  .nav-item a {
+      color: white; /* Set white text color */
+      background-color: black; /* Set black background */
+      padding: 10px 20px; /* Adjust padding */
+      border-radius: 5px; /* Add border radius */
+  }
+  
+  .nav-item:hover {
+      background-color: #333; /* Darken background on hover */
+      }
+      .carousel-control-prev, .carousel-control-next {
+        position: absolute;
+        top: 0;
+        transform: translateY(50%);
+        z-index: 10; /* Ensure buttons are above the carousel content */
+        width: 50px; /* Adjust width of buttons */
+        height: 50px; /* Adjust height of buttons */
+        background-color: black; /* Semi-transparent background */
+        border: none; /* Remove border */
+        border-radius: 50%; /* Make buttons circular */
+        color: black; /* Text color */
+    }
+
+    .carousel-control-prev {
+        left: 5px; /* Position previous button at left */
+    }
+
+    .carousel-control-next {
+        right: 5px; /* Position next button at right */
+    }
+
+    @media (max-width: 768px) {
+        /* Adjustments for small screens */
+        .carousel-item {
+            padding-top: 20px; /* Add space above each image */
+            padding-bottom: 20px; /* Add space below each image */
+        }
+    }
+    
+      
+  </style>
+</head>
+<body style="font-family: Georgia, 'Times New Roman', Times, serif;">
+  <header class=" py-3">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col">
+          <h1>Brickwood Apartments, Westlands</h1>
+        </div>
+        <div class="col text-end">
+          <strong>
+          <h6 style="color:black">Email:
+            bookings@bookingsmgt.co.ke
+          </h6>
+          <h6>
+            Telephone: +254 724 348088
+          </h6>
+        <h6>P.O BOX 3330213</h6>  
+      </strong>      
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg nav-bg">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav nav-links">
+            <li class="nav-item"><a href="" class="nav-link">HOME</a></li>
+            <li class="nav-item"><a href="" class="nav-link">ABOUT US</a></li>
+            <li class="nav-item"><a href="" class="nav-link">WHY US</a></li>
+            <li class="nav-item"><a href="" class="nav-link">REVIEWS</a></li>
+            <li class="nav-item"><a href="" class="nav-link">BLOGS</a></li>
+            <li class="nav-item"><a href="#gallery" class="nav-link">GALLERY</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">CONTACT US</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
+  
+
+  <main class="container py-5">
+    <section class="row">
+      <div class="col-md-12 justify-content-center">
+        <div style="position:relative;">
+          <img src="banner.jpg" alt="Banner Image" style="width:100%; height:50vh; object-fit: cover;">
+          
+        </div>
+      </div>
+    </section>
+    <hr class="hr">
+    <section class="row">
+        <div class="col-md-12">
+            <h2></h2>
+            <p style="text-align: justify;">
+                
+            </p>
+        </div>
+    </section>
+    <hr class="hr"> 
+    <section class="row">
+      <div class="col-md-12">
+        <h2></h2>
+        <p style="text-align:justify;">
+          <b>Brickwood Apartments are self catering apartments</b> to let and <b>fully furnished apartments</b> for rental located in <b>Lantana Road, Westlands, Nairobi, Kenya</b>, 15 kms from <b>Nairobi International Airport</b> via Nairobi Expressway, 5 kms from Nairobi City Center and 2.3 km from <b>Nairobi Museum. Brickwood Apartments</b> is situated 2 Minutes’ walk to </b>Westlands</b> – the Business Hub of Nairobi, <b>Brickwood Apartments</b> offers a choice of <b>One-bedroom apartments</b> and <b>Two-bedroom apartments</b>, at <b>Brickwood Apartments</b> we just want you to feel at ease as you transit your life slowly from where you were to where you are, effortlessly. <b>Brickwood Suites</b> features spacious luxury apartments, an on-site multi-cuisine restaurant, free Fast Wi-Fi, heated swimming pool, Gym and private parking on site. Brickwood Apartments offer full multi-cuisine buffet breakfast as well as a 24-hour front desk on site. The Brickwood Apartments has a barbecue and sauna, and guests can enjoy a meal at the restaurant or drink at the bar, the apartments at Brickwood Apartments have a flat-screen TV, all our apartments have a spacious seating area with balconies, Hardwood/Parquet floors, Mosquito net, Wardrobe/Closet, Shower, Free toiletries, Bath or Shower, you will find a kettle in the room. Contemporary living in a calm, tranquil space makes Brickwood Apartments the perfect urban haven for you and your family right in the heart of <b>Westlands Nairobi</b>. Experience a modern blend of contemporary comfort and timeless charm as you unwind within our facilities, Experience comfort in our <b>fully-furnished apartments</b> made for moments of relaxation, from inviting living areas to roomy shared spaces, each detail is designed to provide a pleasant ambiance for unwinding. At <b>Brickwood Apartments</b> our central location in Westlands ensures effortless immersion in all that the <b>Nairobi City</b> has to offer, whether it is shopping in Nairobi or indulging in local delights of Nairobi Nightlife or Restaurants and Hospitals in Nairobi it is all a few steps away. Step away from the bustling city of Nairobi and make your moments with us. Energize your body in our fitness room, whether you're looking to break a sweat or simply maintain your routine, our fitness room and gym offers a space where you can revitalize your body and experience moments of wellness. Elevate your experience with our restaurants and barbeque pit, where you can savor the pleasures of outdoor dining amidst panoramic views of the area. gather with loved ones, ignite the grill, and create unforgettable moments as you enjoy barbequed delights, all against the backdrop of Nairobi shimmering skyline. At Brickwood Apartments dip into the inviting waters of our pool, whether you seek a refreshing swim or simply want to enjoy tranquility by the water's edge, our pool offers an escape to unwind and enjoy moments of leisure. Feel right at home at Brickwood Apartments. Our unique Nairobi location features excellent connectivity to the Nairobi Wilson Airport, Nairobi CBD, lifestyle centers and sports facilities – delivering you the perfect balance of an active lifestyle and workplace accessibility. The Beauty and Comfort of <b>Brickwood Apartments</b> offers a choice of residence for every need from 1 bedroom apartments and 2 bedroom units with daily housekeeping by a close-knit apartment keeping team that delights in delighting you, our minimum lease is one day and our Apartments rates are all-inclusive covering everything from housekeeping services, in-house maintenance, to electrical bills, Wi-Fi access and cable television plus a secure electronic safe and a contemporary kitchen with everything you need to make delicious home-cooked meals right in your room. At <b>Brickwood Apartments</b> you can hire a chef at an extra fee, <b>Brickwood Apartments</b> is the place to go to if you are looking for a home away from home. Welcome to <b>Brickwood Apartments</b>, your gateway to unrivalled comfort and luxury in the bustling heart of Nairobi, our exquisite apartments offer unparalleled sophistication and convenience for business and leisure travelers alike, enjoy the best of both worlds: a coveted address in Westlands with major businesses and lifestyle attractions right at your doorstep; and the comfort and privacy of your very own urban sanctuary, away from the frenetic noise and bustle of big Nairobi city life. The Brickwood Apartments is also surrounded by a plethora of dining and entertainment options, immersing you in the richness of Nairobi culture and history all in one place. Our facilities and amenities are crafted with the needs of discerning travelers in mind, alongside meticulously-designed serviced apartments that are a testament to our commitment to excellence. Keep up with your fitness routine at our state-of-the-art gymnasium, take a refreshing swim in our outdoor swimming pool, or simply unwind in the soothing atmosphere of our sauna and steam rooms. With 42 one bedroom apartments and 3 – two bedroom apartments tastefully-designed, fully-furnished apartments and spacious <b>apartments to let</b> on our premises, we offer a range of options to suit your individual preferences. Relish in the comforts of home in our fully-equipped kitchens, luxurious living areas, and comfortable bedrooms. Whether you're travelling alone, with a partner, or as a family our <b>apartments in Nairobi</b> provide an ideal space for relaxation and rejuvenation beyond the typical <b>Nairobi hotel</b> experience. Convenience is key when you stay at <b>Brickwood Apartments</b>, getting around town from our residences is a seamless experience, Meanwhile, 24-hour concierge and security ensure safety and comfort for you and your family, whether you’re staying for the long-term rental or short-term rental. Interestingly, we are less than 2km away from the Famous <b>Nairobi Snake Park</b>, Nairobi Botanic Garden and Nairobi Spring Valley Shopping Centre. Nairobi KICC is 3.6 km from <b>Brickwood Suites</b>, Kumbu Kumbu Art Gallery is 700 meters away while JKIA is 22 Km away.
+
+        </p>
+      </div>
+      
+    </section>
+    <hr>   
+    <section class="row">
+
+      <div class="col-md-12">
+        <h2>Brickwood Apartments the Experience</h2>
+        <p style="text-align:justify;">
+          <b>Brickwood Apartments</b> redefines personal service by providing warm Kenyan hospitality while bringing the outback stay experience to you, we are committed to curating remarkably comfortable and relaxing stay experiences for our guests, from exploring vibrant neighborhoods to dwelling well in our apartments each moment spent at Brickwood Apartments is an affirmation of our goal to making your moments matter. Unwind in the delight that is your home away from home.  Lay back, smile and unwind. Pampering self-care options abound throughout our Apartments. With 42 one-bedroom apartments and 3 – two-bedroom apartments guests in Nairobi are assured of comfort and relaxation, at every moment, each apartment accommodation is equipped with modern essentials alongside eco-friendly amenities, so guests can enjoy a restful hotel staycation with sustainability in mind. Enjoy your Moments with Us. Step away from bustling Nairobi into an urban oasis within the heritage enclave, be wooed by quiet charm while staying in our modern and contemporary facilities, At Brickwood Apartments we await the opportunity to craft a memorable stay experience for you. Today. At Brickwood Apartments guests can look forward pre-ordering from gourmet grocer Gilani Supermarkets so that you are greeted with a well-stocked <b>Nairobi apartment</b> upon arrival. At Brickwood Apartments stay a little or stay a while, Brickwood offers spacious, <b>Furnished apartments</b> with convenient hotel services for short or long stays. Book your <b>apartment in Nairobi</b> with Brickwood Apartments featuring apartment hotels and serviced apartments in a major location, each <b>serviced apartment</b> is designed with the space and convenience of home enhanced with hotel services and centrally located in the most appealing neighborhood, world class facilities and our attentive team make each stay special, allowing you to discover the local lifestyle at its best. Enjoy the space with <b>1-bedroom apartments</b> and 2-bedroom apartments with fully equipped kitchens so you can stay in and cook your own delicious meals, whether you are staying with us for one night or a longer period, your health and well-being is our priority and our team is ready to help with any questions you may have. Enjoy a refreshing check-in and our friendly guest service colleague will orientate you in your new home and share some local insider’s tips about Nairobi. Explore the Nairobi city’s best sights, Brickwood Apartments boasts well designed and spacious apartments of different sizes that cater to the needs of different travelers. 
+        </p>
+      </div>  
+    </section>
+    <hr>
+    <section class="row">
+      <div class="col-md-6">
+        <h2>Why Brickwood Apartments</h2>
+        <p style="text-align: justify;">
+          We understand the challenges that come with finding safe, affordable and comfortable <b>apartments in Nairobi</b> especially when travelling with family or relocating to a new country. Unlike Nairobi hotels, which often require you to book multiple rooms to accommodate your group we offer a more cost-effective and spacious solution. Our <b>serviced apartment in Nairobi</b> provides a generous 400 sqf residence that effortlessly accommodates a family of two or four. Each <b>Nairobi serviced apartment</b> is well-equipped, with a dining area, kitchenette, and washer and dryer, giving you the convenience of cooking meals and doing laundry at your leisure. Not only will you save time but also money on costly dining and laundry services. We take pride in providing excellent housekeeping and timely maintenance services to ensure a quality and hassle-free stay. We take care of our <b>serviced apartments in Westlands</b> amenities and facilities, so you’ll feel right at home. If you're in need of a short-term rental, we're flexible enough to host you. If you’re looking for <b>long-term rental</b>, our serviced apartments offer value-for-money, spacious accommodations with all the necessary amenities and services. And that’s not all, we’re proud to be one of the first <b>pet-friendly service apartments in Nairobi</b>. That’s right, your pet is also welcome in all our residences! Don’t settle for cramped <b>Nairobi hotels</b> rooms; experience the perfect balance of convenience, assurance, affordability and flexibility with our service <b>apartments in Nairobi</b>.
+        </p>
+      </div>
+      <div class="col-md-6">
+          <h2>Why Brickwood Apartments</h2>
+          <p style="text-align:justify;">
+            We understand the challenges that come with finding safe, affordable and comfortable <b>apartments in Nairobi</b> especially when travelling with family or relocating to a new country. Unlike Nairobi hotels, which often require you to book multiple rooms to accommodate your group we offer a more cost-effective and spacious solution. Our <b>serviced apartment in Nairobi</b> provides a generous 400 sqf residence that effortlessly accommodates a family of two or four. Each <b>Nairobi serviced apartment</b> is well-equipped, with a dining area, kitchenette, and washer and dryer, giving you the convenience of cooking meals and doing laundry at your leisure. Not only will you save time but also money on costly dining and laundry services. We take pride in providing excellent housekeeping and timely maintenance services to ensure a quality and hassle-free stay. We take care of our <b>serviced apartments in Westlands</b> amenities and facilities, so you’ll feel right at home. If you're in need of a short-term rental, we're flexible enough to host you. If you’re looking for <b>long-term rental</b>, our serviced apartments offer value-for-money, spacious accommodations with all the necessary amenities and services. And that’s not all, we’re proud to be one of the first <b>pet-friendly service apartments in Nairobi</b>. That’s right, your pet is also welcome in all our residences! Don’t settle for cramped <b>Nairobi hotels</b> rooms; experience the perfect balance of convenience, assurance, affordability and flexibility with our service <b>apartments in Nairobi</b>. 
+      
+          </p>
+          
+      </div>     
+        
+      </section>
+      <hr>
+    <section class="row">
+      <div class="col-md-12">
+        <h2>Book your stay today!</h2>
+        <p style="text-align:justify;">
+          A <b>Nairobi hotel</b> typically offers individual rooms with essential amenities, while an <b>apartment in Nairobi</b> provides more spacious accommodations with separate living, dining, and kitchen areas. <b>Nairobi apartments</b> feel more like a home, often catering to longer stays. Guests have greater privacy, self-sufficiency and flexibility in <b>apartments in Nairobi</b>, while <b>hotels in Nairobi</b> focus on convenience and services. The benefit of staying at a <b>Nairobi furnished apartment</b> includes access to spacious rooms and various amenities, including fully-equipped kitchens, living areas, and even separate bedrooms. This creates a homey environment, ideal for longer stays or family travel. Additionally, the flexibility to cook meals and do laundry saves money and adds convenience. <b>Furnished apartments in Nairobi</b> often have prime locations, allowing guests to experience local life while enjoying services like housekeeping and security. A <b>Furnished apartment in Nairobi</b> cost vary based on factors such as location, size, and amenities. At Brickwood Apartments our rates range when you stay at our Fully furnished apartment. Also, know that <b>long-term rental at serviced apartments</b> can provide more cost savings compared to <b>hotels in Nairobi</b> for extended periods. We believe in creating a conducive and refined environment for our corporate partners and residents – which takes form in the best quality amenities in our <b>service apartments</b>. Fully furnished apartments and equipped apartments with household appliances while accommodating corporate relocation, we offer attractive rates comparable to hotel apartments in Nairobi. Housekeeping services are also provided to ensure cleanliness and ease of stay for residents. Looking to enjoy our facilities but with limited time? Don’t worry, we do offer short term stay in our serviced apartment. Long-term visitors will also find our <b>monthly serviced apartment</b> offer exceptionally welcoming. Whether you’re looking for <b>1-bedroom serviced apartment</b> or <b>2-bedroom serviced apartment</b>, we got you covered.  
+    
+        </p>
+        <h2>Booking Terms  </h2>
+        <p style="text-align:justify;">
+          Discovering Nairobi by staying in a <b>Furnished apartment in Westlands</b> neighborhood means enjoying many amenities while benefiting from a very central location. Brickwood Apartments provides a selection of the finest <b>Westlands Furnished Apartments</b> enter your dates and select only available apartments. Choose from our wide catalogue of <b>furnished apartments in Westlands</b> the appropriate apartment to spend a comfortable stay in Nairobi. Choose your <b>Furnished apartments in Westlands</b> from studio to family apartments from short stay to long term rentals, from affordable to luxury apartments. You can use our Search and Sort Tools to find your good home. Whether you’re looking for short term or long-term rental, please fill in the request form and receive the opportune assistance from our team of our experts. <b>Brickwood Apartments Westlands</b> gives all this because it is located right in the famous neighborhood and overlooking the square of the same name. The <b>Brickwood Apartments</b> are spacious, bright, furnished with many period elements and enriched with works by great artists, including works by Sauti Sol. It has a kitchen, living room dining room, bathroom, master bedroom. The apartment is cared for down to the smallest detail: Among the advantages of the <b>Furnished apartments in Westlands</b> we certainly find the location, in <b>Brickwood Apartments</b>, in what is not coincidentally called the luxury district. Here we find all the most famous clothing brands and all the most prestigious boutiques in Nairobi. In this district, luxury is fashion, but also architecture, food, and the atmosphere we breathe among the boulevards and squares. Find and book rentals in Westlands with <b>Brickwood Apartments</b> Our move-in ready <b>apartments in Nairobi</b> best neighborhoods can be rented long or short-term for as little as three months.
+        </p>        
+    </div>
+    </section>
+      <hr>
+      <section class="row">
+        <div class="col-md-12">
+            <h2>Nairobi Westlands</h2>
+            <p style="text-align:justify;">
+              <b>Westlands</b> is the entertainment capital of Nairobi. <b>Westlands</b> has the fanciest <b>luxury hotels</b>, the grooviest clubs, the best shopping malls, and the widest range of places to eat in Nairobi. Located 30 minutes away from the Jomo Kenyatta International Airport and only five minutes from the Nairobi CBD in Nairobi, sits the legendary <b>Westlands area</b>. The Nairobi Expressway is a 27 kilometres) toll road in Kenya, connecting Jomo Kenyatta International Airport to Nairobi's Westlands area, But Westlands is a lot more than that. It is also one of the best places to live in the city. Compared to many other areas of the city, it’s safe, quiet, and has everything you need within a 5-minute drive, including schools and hospitals. Parklands is a neighborhood in <b>Nairobi</b>, found East of <b>Westlands</b>, and <b>West of Limuru Road. Parklands</b> is located north-northwest of the Nairobi City Centre, <b>Parklands Nairobi</b> falls under the Parklands <b>Highridge</b> County Assembly Ward, which is in <b>Westlands</b> Constituency, and part of the larger Nairobi County. Westlands is also an important business district. Most of the buildings there contain offices and shops. With so much going on, I thought you should have a quick guide about Westlands and everything it has to offer. Westlands as a business district was built by shopping centres. It’s still the busiest shopping area other than <b>Nairobi CBD</b>. There are stalls on all streets in the business districts, selling everything from food to computer parts. There are malls and other collective shopping areas where it is easier to get everything you need at one location. Thanks to its fantastic hotels and business centers, Nairobi is the perfect place for hosting your meetings, events or conferences. The largest city in East Africa is not only well-known for its luxurious modern and impressive skyscrapers, but also for its status as a global MICE destination. Finding and reserving the best <b>conference venue in Nairobi</b> is relatively straightforward due to the variety of high-end conference hotels and online conference hotel sourcing and booking platforms available. The wide range of large & luxurious <b>conference venues in Nairobi</b> with fantastic conference facilities make Nairobi the perfect city for any international Conference event, whether you are organizing an intimate business meeting or a big conference or congress. Hereby you’ll find our pick on the best meting <b>venues in Nairobi</b> for your next international event: If you're looking for upcoming international <b>conferences in Nairobi</b>, you've come to the right place. At <b>Brickwood Apartments</b> we list all the upcoming conferences, events, seminars, webinars, and workshops taking place in Nairobi for 2024 and 2025. No matter what your field of interest or expertise, you're sure to find an upcoming <b>conference venue in Nairobi</b> that's right for you. With our comprehensive list of conferences, you can easily find events taking place in your city or nearby. You can also search for <b>Nairobi conferences venues</b> by keyword, date, or location. Nairobi has transformed into one of the top choices for companies, enterprises and individuals for hosting a variety of events - from meetings, conferences, tradeshows to glamorous weddings and social events. With world leading facilities, stunning venues, a range of hotels to suit every budget, and state-of-the-art technology, Nairobi has become the go-to destination for hundreds of events, meetings and conferences. Nairobi is an ideal place for hosting your corporate meetings, events or conferences because Nairobi has amazing hotels and business centers. Nairobi is the largest most populated or Tourist city in East Africa. It is not just famous for its luxurious, state of the art and magnificent buildings, but also famous for its place as a global MICE destination.
+        
+            </p>
+            <h2>Nairobi City </h2>
+            <p style="text-align: justify;">
+              <b>Nairobi</b> has become synonym with safaris and wild animals because of its close proximity to some of the biggest nature parks in East Africa. But Kenya’s capital is also a metropolitan, busy city with plenty of things to do, places to discover, and attractions worth a visit. The city has become a great culinary destination as well, with markets and restaurants ready to keep you busy (and very well-fed) before you head off into the wilderness. The heart of cosmopolitan Nairobi, the Central Business District (CBD) is filled with all manner of things to see and do, day or night. The plus in staying in the <b>Nairobi</b> is, of course, the action and vibrancy, but the glaringly obvious minus is the feeling of being locked in a concrete jungle when you could be out with nature. The hustle and bustle may be exciting and distracting, but you are advised to be on your guard here as petty crime is rampant. If you’ve got nowhere to be and no plans to occupy you, the <b>Nairobi</b> is the best area for meandering around. We must warn you however not to talk on the phone while crossing the road, as this is strictly verboten. The downtown area has some of the best bars and <b>restaurants in Nairobi</b>. Try Nyama Choma, which is Swahili for barbecue. You will find all of the classic meats, as well as farm-raised ostrich and crocodile. Nairobi City Market is the best place in town shopping. Another must-see is the Nairobi Maasai Market, located between the CBD and the Westlands. Haggling is a hot-button issue here: it is encouraged, and one could even say required, but too much of it can quickly turn insulting. The Maasai take pride in their craft and don’t want to give it to you at any cost. Be reasonable but respectful. Head up to the Kenyatta Convention Center helipad for the best and vastest views of the city. Have a cocktail at Lord Delamere Terrace & Bar, est. 1904, and think about the fact that a little over four miles away there are lions, giraffes, elephants, and rhinos roaming around. The perhaps most important thing to keep in mind when visiting Nairobi is not to let worry cloud your fun. The Kenyan capital is an endlessly entertaining and welcoming place to find yourself any time. The contrast Nairobi offers in the wild and untouched landscape spreading eternally from it, interrupted in its arid, flat way only by the skyscrapers and noise of a metropolis, is something you won’t soon forget.
+            </p>
+            <h2>Booking Apartments Our Apartments</h2>
+            <p style="text-align: justify;">
+              Staying in a <b>serviced apartment in Westlands</b>, Nairobi, is great, <b>Nairobi Westlands Serviced Apartments</b> - Book <b>serviced apartments in Westlands</b> with more space than a <b>Westlands hotel</b> room and a huge choice of convenient locations. extended or short stay <b>apartment in Westlands</b> gives you the freedom to experience Nairobi city the way that suits you best. Whether you’re traveling for work or pleasure, a <b>Westlands serviced apartment</b> leaves you free to come and go as you please with all the comfort and convenience of home along with <b>Nairobi hotel</b> benefits including a weekly clean and free WiFi. Choose from over 1000 <b>short stay apartments in Westlands</b> and apartments throughout the Nairobi city. <b>Rent Furnished Apartments in Westlands</b>, whether you are looking for <b>short term rentals</b> or long-term rental n with flexible terms, you will always find the ideal serviced <b>apartments for rent in Westlands</b> here. All the <b>apartments in Westlands Nairobi</b> are available for daily weekly or monthly stays. Choosing an <b>apartment in Westlands Nairobi</b> for a short-term rental while staying in Nairobi is a great alternative to the ordinary, cramped setting of a <b>Nairobi hotel. Furnished apartments in Westlands Nairobi</b> provides a number of options for those individuals who are looking for a short term, weekly or monthly rental apartment while visiting Nairobi for business or pleasure. When one contacts <b>Westlands apartments rental</b>, they can rest assured that their short-term rental needs will be superbly met and the following reasons show why choosing <b>rent an apartment in Westlands</b> for short term rental needs is a good choice. <b>Furnished apartments for rent in Westlands Nairobi</b> come in all sorts of shapes and sizes! For example, you <b>can rent a serviced apartment</b>, indeed, you can rent a <b>1 bedroom</b> or <b>2 bedroom</b> or <b>3 bedroom</b> or 4-<b>bedroom apartment in Westlands Nairobi</b>, Moreover, there are 5 Bedroom furnished apartments available for rent in <b>Westlands Nairobi</b>. For those who love the high life, one can rent furnished penthouses and duplexes in <b>Westlands Nairobi</b>. Some <b>apartments for sale in Westlands Nairobi</b> even offer all utilities included, or chiller free. Indeed, most <b>furnished Westlands Nairobi apartments</b> offer a cleaning service twice a week.  Our <b>serviced apartments in Westlands</b> serve as a private haven for extended stay guests with its authentic family-like hospitality. Experience unparalleled comforts of home at our conveniently located <b>Westlands Apartments to let</b>. The essence of <b>Brickwood Apartments</b> is to recreate and combine the flair of the Aristocracy with modern Luxury facilities. Step into every apartment and be immediately greeted by pared-back aesthetics and cushioned bay window seats, the ideal space to take in the expansive city views. Our hotel-style accommodations boast a functional layout with a kitchen, a dining table, cable TV and more – to make every stay equally home-like, short or extended. Discover a world within <b>Brickwood Apartments</b>. Relax or mingle at our range of functional and leisure facilities, each serving as an intimate extension of your personal space. Our devoted team is dedicated to perfecting every detail for that effortless and genuine comfort that reminds you fondly of home. Just a stone’s throw away from the bustling multinational business area and exciting <b>Nairobi nightlife</b>, Brickwood <b>Apartments</b> serviced apartments are the perfect base to explore Nairobi serene esplanades, accessible shopping, and colorful mix of local and cosmopolitan community. <b>Nairobi Apartments</b> manages personal hotels and <b>serviced apartments in Westlands Nairobi</b>, our properties are centrally located in prominent business districts, high-end shopping and entertainment neighborhoods. By combining the comfort of home living with attentive hospitality, we consistently observe our business model to create spaces where our guests can enjoy and relax in, making the Brickwood Apartments a success. If you’re seeking <b>Westlands apartments for sale</b>, then you’re in the right place. we have a variety of <b>Apartments for sale in Westlands</b>, with many offered furnished. Whether you’re a first-time buyer in search of a 2-bedroom <b>house for sale in Westlands</b> or you're seeking a Buy-to-Let property <b>apartments in Westlands</b>, read on to find out about the residential opportunities available. Whether you’re in search of a furnished or unfurnished <b>Apartments for sale in Nairobi Westlands</b>, there are many options available with our new build apartments in parklands If you’re looking for a 1-, 2-, 3- or 4-bedroom flat for sale in parklands then we are here to help. With many available to purchase for penthouse apartments in parklands, we on offer to residents. 
+            </p>
+            
+        </div>
+          
+        </section>      
+      <hr>    
+      <section class="row" style="background-image: url('431176024.jpg'); background-size: 100% 100%; background-repeat: no-repeat; color:white;">
+        <div class="col-md-12" style="background-color:rgba(0, 0, 0, 0.5);">
+            <h2>Westlands Night Life</h2>
+            <p style="text-align:justify;">
+              Welcome to our guide on the best <b>clubs in Westlands</b>, Nairobi! If you’re looking for a fun night out with your friends, then Westlands is the place to be. With its vibrant nightlife scene, Westlands is home to some of the <b>best clubs in Nairobi</b>, whether you’re into hip-hop, reggae, or electronic music, Westlands has something for everyone. <b>Westlands</b> has a vibrant and exciting nightlife scene that offers everything from chic rooftop bars to unique cocktail bars, lively <b>clubs in Westlands</b>. In <b>Westlands</b>, the nightlife is as thriving and varied as Nairobi city itself and most visitors should plan on taking advantage of Nairobi city’s attractions. The <b>best nightclubs in Westlands</b> stay buzzing 7 nights a week, with both world-class mega-clubs and underground haunts standing side by side, attracting revelers from every corner of the planet. You can find every niche musical movement in <b>Westlands</b>. It’s this sheer choice, along with fun-loving crowds and the classic easygoing Kenyan charm that makes Westlands the premier clubbing destination in Kenya and one of the most boisterous party cities in the world, we’ve selected what we believe are the best <b>nightclubs in Westlands</b> to give you an idea of what diverse <b>Westlands nightlife</b> scene is all about. With so much to choose from, visitors will want to plan their nightlife</b> in <b>Westlands</b> adventures and this guide can help travelers decide which areas, Westlands bars and <b>Westlands clubs</b> and attractions to choose from when they visit Nairobi city. <b>Westlands</b> has many great nightlife areas to choose from and each area will offer something a little different for visitors. Here are some of the popular nightlife areas in <b>Westlands</b>, The <b>Nairobi nightlife</b> options also include a great selection of Nairobi bars that cater to a more elite clientele. From ritzy to more casual venues, here are some of the best <b>bars in Nairobi</b>, if you want to find the best <b>restaurants in Westlands</b>, then this food guide will lead you to the top <b>Westlands restaurants</b>.
+            </p>
+        </div>
+      </section>
+      <hr class="hr">
+      <section class="row" id="gallery">
+        <h2 style="text-align: center;">Our Gallery</h2>
+        
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <!-- Wrap the image inside a clickable element -->
+                                <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-img="426763960.jpg" data-bs-title="">
+                                    <img src="426763960.jpg" class="d-block w-100" alt="Gallery Image 1">
+                                </a>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <!-- Wrap the image inside a clickable element -->
+                                <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-img="426764013.jpg" data-bs-title="">
+                                    <img src="426764013.jpg" class="d-block w-100" alt="Gallery Image 2">
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <!-- Wrap the image inside a clickable element -->
+                                <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-img="431175973.jpg" data-bs-title="Inside ">
+                                    <img src="431175973.jpg" class="d-block w-100" alt="Gallery Image 3">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <!-- Wrap the image inside a clickable element -->
+                                <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-img="431176024.jpg" data-bs-title="">
+                                    <img src="431176024.jpg" class="d-block w-100" alt="Gallery Image 1">
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <!-- Wrap the image inside a clickable element -->
+                                <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-img="431176085.jpg" data-bs-title="">
+                                    <img src="431176085.jpg" class="d-block w-100" alt="Gallery Image 2">
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <!-- Wrap the image inside a clickable element -->
+                                <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-img="431176323.jpg" data-bs-title="">
+                                    <img src="431176323.jpg" class="d-block w-100" alt="Gallery Image 3">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <!-- Wrap the image inside a clickable element -->
+                                <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-img="431176145.jpg" data-bs-title="">
+                                    <img src="431176145.jpg" class="d-block w-100" alt="Gallery Image 1">
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <!-- Wrap the image inside a clickable element -->
+                                <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-img="430811082.jpg" data-bs-title="">
+                                    <img src="430811082.jpg" class="d-block w-100" alt="Gallery Image 2">
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <!-- Wrap the image inside a clickable element -->
+                                <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-img="431175939.jpg" data-bs-title="">
+                                    <img src="431175939.jpg" class="d-block w-100" alt="Gallery Image 3">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden=" true">Previous</span>
+                    
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true">Next</span>
+                    
+                </button>
+            </div>
+    </section>
+    
+    <!-- Modal -->
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="" class="img-fluid" id="modal-image" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var galleryLinks = document.querySelectorAll('.gallery-link');
+
+        galleryLinks.forEach(function(link) {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                var imgSrc = link.getAttribute('data-bs-img');
+                var imgTitle = link.getAttribute('data-bs-title');
+                var modalImg = document.getElementById('modal-image');
+                var modalTitle = document.getElementById('exampleModalLabel');
+
+                modalImg.setAttribute('src', imgSrc);
+                modalTitle.innerText = imgTitle;
+
+                var myModal = new bootstrap.Modal(document.getElementById('exampleModal'));
+                myModal.show();
+            });
+        });
+
+        var modal = document.getElementById('exampleModal');
+        modal.addEventListener('hidden.bs.modal', function () {
+            // Remove the modal backdrop to restore interactivity
+            document.querySelector('.modal-backdrop').remove();
+        });
+    });
+</script>     
+      <hr class="hr">
+      
+      <section class="row d-flex justify-content-center" id="contact">
+        <h2 style="text-align: center;">Contact Us</h2>
+        <div class="col-md-6">
+          <!-- Contact form -->
+          <form id="contactForm">
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="subject" name="subject" required>
+            </div>
+            <div class="mb-3">
+              <label for="subject" class="form-label">Your Phone</label>
+              <input type="text" class="form-control" id="subject" name="subject" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>      
+      </section>
+        <br>
+        <hr class="hr">
+    </main>
+
+
+  <footer class="text-light py-3">
+    <div class="container-fluid">
+      <ul class="nav justify-content-center footer-links">
+        <li class="nav-item"><a href="" class="nav-link">HOME</a></li>
+            <li class="nav-item"><a href="" class="nav-link">ABOUT US</a></li>
+            <li class="nav-item"><a href="" class="nav-link">WHY US</a></li>
+            <li class="nav-item"><a href="" class="nav-link">REVIEWS</a></li>
+            <li class="nav-item"><a href="" class="nav-link">BLOGS</a></li>
+            <li class="nav-item"><a href="#gallery" class="nav-link">GALLERY</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">CONTACT US</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS (optional, if you need JS functionalities) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Add this script tag at the end of your HTML body -->
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  (function() {
+    // Initialize EmailJS with your user ID
+    emailjs.init("YOUR_USER_ID");
+
+    // Add event listener to the form
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevent the default form submission
+
+      // Get the form data
+      let formData = {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        subject: document.getElementById("subject").value,
+        message: document.getElementById("message").value
+      };
+
+      // Send the form data using EmailJS
+      emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", formData)
+        .then(function(response) {
+          console.log("Email sent successfully!", response);
+          alert("Your message has been sent successfully!");
+        }, function(error) {
+          console.error("Email sending failed:", error);
+          alert("Sorry, an error occurred while sending your message. Please try again later.");
+        });
+    });
+  })();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
